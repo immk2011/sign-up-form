@@ -18,29 +18,35 @@
         
         <div class="login-section">
             <form action="/" method="post">
-                <div class="block">
+            <ul>
+                <li>
                     <label for="first-name">First Name:</label>
                     <input type="text" id="name" name="first_name">
-            
+                </li>
+                <li>
                     <label for="last-name">Last Name:</label>
                     <input type="text" id="name" name="last_name">
-                </div>
+                </li>
 
-                <div class="block">
+                <li>
                     <label for="email">Email:</label>
                     <input type="email" id="mail" name="user_email">
-                
+                </li>
+                <li>
                     <label for="phone-number">Phone Number:</label>
                     <input type="number" id="phone-number" name="user_number" placeholder="123 456 7891" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
-                </div>
+                </li>
                 
-                <div class="block">
+                <li>
                     <label for="pass">Password:</label>
                     <input type="password" id="pass" name="user_password">
-                
+                </li>
+                <li>
                     <label for="pass-true">Confirm Password:</label>
                     <input type="password" id="pass-true" name="confirm_password">
-                </div>
+                </li>
+
+            </ul>
             </form>
         </div>
     </div> 

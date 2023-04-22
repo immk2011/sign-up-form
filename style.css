@@ -40,13 +40,37 @@ body {
 }
 
 .top-paragraph h2 {
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
-.login-section div + div {
-    display: inline-block;
+.login-section {
+    
+}
+/* Form Section */
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    /* Outline */
+    padding: 1em;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    margin: -2px;
 }
 
-.block label{
+ul {
+    list-style: none;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+input, label {
     display: block;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
 }
