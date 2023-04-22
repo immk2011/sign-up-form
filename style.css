@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.background-image {
+    background-image: url('./pic1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+.title-background {
+
+}
+
+.title {
+    font-size: 32px;
+    background-color: rgba(32, 32, 32, .6);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    color: #fff;
+
+    justify-content: center;
+    align-items: center;
+}
