@@ -10,6 +10,10 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.header {
+    display: flex;
+}
+
 .background-image {
     background-image: url('./pic1.jpg');
     background-size: cover;
@@ -18,19 +22,31 @@ body {
     height: 100vh;
 }
 
-.title-background {
-
-}
-
 .title {
-    font-size: 32px;
-    background-color: rgba(32, 32, 32, .6);
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, .5);
     position: relative;
     top: 20vh;
-    gap: 1vw;
     padding: 15px 0;
     color: #fff;
 
+    display:flex;
     justify-content: center;
-    align-items: center;
+}
+
+.top-paragraph {
+    display: block;
+    padding: 40px;
+}
+
+.top-paragraph h2 {
+    margin-top: 20px;
+}
+
+.login-section div + div {
+    display: inline-block;
+}
+
+.block label{
+    display: block;
 }
